@@ -1,3 +1,4 @@
+/*Container 1*/
 @media (max-width: 1440px) {
     .row-container1 {
       margin: 50px;
@@ -6,6 +7,7 @@
       align-items: center;
       width: 95%;
     }
+
     .image-column {
       width: 45%;
       display: flex;
@@ -40,7 +42,7 @@
     .row-container1 {
       margin: 40px;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       width: 90%;
     }
@@ -167,17 +169,19 @@
       margin-right: 10px;
     }
   }
-  .faq {
+
+  /*Container 3 */
+  .row-container3 {
     margin-left: 380px;
     margin-right: 380px;
 }
 
-.faq h2 {
+.row-container3 h2 {
     color: blueviolet;
     text-align: center;
 }
 
-.faq-item {
+.item {
     background-color: rgb(241, 241, 241);
     margin-bottom: 10px;
     padding: 10px;
@@ -186,7 +190,7 @@
     cursor: pointer;
 }
 
-.faq-item1 {
+.item1 {
     background-color: rgb(241, 241, 241);
     margin-bottom: 10px;
     padding: 10px;
@@ -195,28 +199,28 @@
     cursor: pointer;
 }
 
-.faq-item .one {
+.item .one {
     margin-bottom: 10px;
     color: #8A2BE2;
 }
 
-.faq-item .two {
+.item .two {
     color: grey;
 }
 
-.faq-item1 p {
+.item1 p {
     margin-bottom: 10px;
     font-weight: 600px;
 }
 
-.faq-item button {
+.item button {
     float: right;
     border: none;
     background-color: transparent;
     
 }
 
-.faq-item1 button {
+.item1 button {
     float: right;
     border: none;
     background-color: transparent;

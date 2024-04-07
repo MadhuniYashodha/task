@@ -36,7 +36,6 @@ function Footer() {
               <li>Social media Marketing</li>
               <li>Web & Mobile App Development</li>
               <li>Data & Analytics</li>
-              <li>NodeJS</li>
             </ul>
 
           </div>

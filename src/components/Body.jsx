@@ -7,11 +7,15 @@ function Body() {
   return (
     <div>
       <div className="row-container1">
+        
         <div className="image-column">
           <img src={img2} alt="" />
         </div>
+        
+
+        
         <div className="text-column">
-          <h4 style={{ color: "#800080" }}>Web & Mobile App Development</h4>
+          <h4 style={{ color: "blueviolet" }}>Web & Mobile App Development</h4>
           <p>
             Your web and mobile Apps are pieces of the puzzle to grow your
             business. We use frameworks which tailor content and engagement
@@ -22,17 +26,19 @@ function Body() {
           <div>
             <button
               className="btn btn-md text-light"
-              style={{ backgroundColor: "#e4c31d" }}
+              style={{ backgroundColor: "#e4c31d", border: "none", color: "white" }}
             >
               LEARN MORE
             </button>
           </div>
         </div>
+        
+        
       </div>
 
       <div className="row-container2">
         <div className="text-column2">
-          <h4 style={{ color: "#800080" }}>Digital Stratergy Consulting</h4>
+          <h4 style={{ color: "blueviolet" }}>Digital Stratergy Consulting</h4>
           <p>
             Your digital strategy should complement the overall marketing
             strategy of the company. In online marketing, each component will
@@ -44,7 +50,7 @@ function Body() {
           <div>
             <button
               className="btn btn-md text-light"
-              style={{ backgroundColor: "#e4c31d" }}
+              style={{ backgroundColor: "#e4c31d", border: "none", color: "white" }}
             >
               LEARN MORE
             </button>
@@ -58,7 +64,7 @@ function Body() {
 
       <div className="row-container3">
         <h2>Frequently Asked Questions</h2>
-        <div className="faq-item">
+        <div className="item">
           <p className="one">
             Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?
           </p>
@@ -70,7 +76,7 @@ function Body() {
           </p>
         </div>
 
-        <div className="faq-item1">
+        <div className="item1">
           <p>
             Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?
           </p>
@@ -78,7 +84,7 @@ function Body() {
           <button>+</button>
         </div>
 
-        <div className="faq-item1">
+        <div className="item1">
           <p>
             Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?
           </p>
